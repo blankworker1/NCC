@@ -274,12 +274,12 @@ body {
      ══════════════════════════════════════════════════ -->
 <script>
 const CONFIG = {
-  COMMUNITY_NAME : "My Community",
-  CHANNEL_ID     : "my-community",
+  COMMUNITY_NAME : "NCC",
+  CHANNEL_ID     : "ncc-channel",
   RELAY          : "wss://relay.damus.io",
   STUN           : "stun:stun.l.google.com:19302"
 };
-// URL hash override: #channel=criccieth
+// URL hash override: #channel=ncc-channel
 const hashChannel = location.hash.match(/channel=([^&]+)/);
 if (hashChannel) CONFIG.CHANNEL_ID = decodeURIComponent(hashChannel[1]);
 </script>
